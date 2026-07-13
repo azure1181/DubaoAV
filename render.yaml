@@ -1,0 +1,15 @@
+services:
+  - type: web
+    runtime: python
+    name: forecast-water-api
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: python api_website.py
+    healthCheckPath: /healthz
+    autoDeployTrigger: commit
+    envVars:
+      - key: TRUST_PROXY
+        value: "1"
+      - key: QUIET
+        value: "1"
+      - key: CORS_ORIGIN
+        value: "*"

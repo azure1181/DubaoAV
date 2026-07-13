@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dự báo nước về hồ A Vương</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar" aria-label="Tổng quan báo cáo">
+        <div>
+          <p class="eyebrow">Báo cáo API</p>
+          <h1 id="pageTitle">Dự báo nước về hồ A Vương năm 2026</h1>
+        </div>
+        <div class="year-switch" aria-label="Chọn năm dự báo">
+          <button class="year-button active" type="button" data-year="2026">2026</button>
+          <button class="year-button" type="button" data-year="2027">2027</button>
+        </div>
+        <div class="actions">
+          <a class="button" id="jsonLink" href="./forecast-data.json" target="_blank">JSON</a>
+          <a class="button" id="excelLink" href="../output_forecast/bao_cao_du_bao_2026.xlsx">Excel</a>
+          <a class="button" id="chartLink" href="../output_forecast/du_bao_nuoc_ve_2026.png">Biểu đồ</a>
+        </div>
+      </section>
+
+      <section class="summary-grid" aria-label="Chỉ tiêu chính">
+        <article class="metric">
+          <span id="forecastMetricLabel">Dự báo TB 2026</span>
+          <strong id="forecastMean">--</strong>
+          <small>m3/s</small>
+        </article>
+        <article class="metric">
+          <span>TB lịch sử</span>
+          <strong id="historyMean">--</strong>
+          <small>m3/s</small>
+        </article>
+        <article class="metric">
+          <span>Kịch bản</span>
+          <strong id="scenario">--</strong>
+          <small>so với chuỗi lịch sử</small>
+        </article>
+        <article class="metric">
+          <span>Đỉnh dự báo</span>
+          <strong id="peakMonth">--</strong>
+          <small id="peakFlow">--</small>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">
+          <h2>Đặc tuyến dự báo</h2>
+          <span id="generatedAt">Đang tải dữ liệu</span>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="flowChart" width="1100" height="420"></canvas>
+        </div>
+      </section>
+
+      <section class="content-grid">
+        <article class="panel">
+          <div class="panel-title">
+            <h2>Nhận định điều hành</h2>
+          </div>
+          <p id="comment" class="comment">Đang tải nhận xét...</p>
+          <img class="report-image" src="../output_forecast/du_bao_nuoc_ve_2026.png" alt="Biểu đồ dự báo lưu lượng nước về" />
+        </article>
+
+        <article class="panel">
+          <div class="panel-title">
+            <h2>Bảng dự báo tháng</h2>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Tháng</th>
+                  <th>Dự báo</th>
+                  <th>2025</th>
+                  <th>TB lịch sử</th>
+                  <th>Kịch bản</th>
+                </tr>
+              </thead>
+              <tbody id="monthlyRows"></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="./forecast-data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

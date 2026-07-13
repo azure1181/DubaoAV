@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db
+
+# Input workbooks are only needed for local forecast generation.
+*.xls
+
+# Local logs and secrets.
+*.log
+.env
+.env.*
