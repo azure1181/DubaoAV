@@ -14,4 +14,6 @@ services:
       - key: QUIET
         value: "1"
       - key: CORS_ORIGIN
-        value: "*"
+        value: "https://forecast-water-api.onrender.com"
+      - key: PUBLIC_URL
+        value: "https://forecast-water-api.onrender.com"
