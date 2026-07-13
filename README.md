@@ -1,5 +1,7 @@
 # Triển khai Forecast Water API lên Render
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/azure1181/DubaoAV)
+
 ## Kiến trúc
 
 Render chạy `api_website.py` như một Python Web Service. Website, JSON API và các tệp tải xuống dùng chung một URL `https://<ten-dich-vu>.onrender.com`.
