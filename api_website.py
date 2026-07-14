@@ -293,6 +293,7 @@ class ForecastHandler(SimpleHTTPRequestHandler):
         body = json.dumps(payload, ensure_ascii=False, indent=2).encode("utf-8")
         self.send_response(status)
         self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Language", "vi")
         self.send_header("Cache-Control", "no-store")
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
@@ -304,9 +305,19 @@ class ForecastHandler(SimpleHTTPRequestHandler):
             self.send_json({"error": f"Khong tim thay file: {path.name}"}, status=404)
             return
         content_type = mimetypes.guess_type(path.name)[0] or "application/octet-stream"
+        is_utf8_text = content_type.startswith("text/") or content_type in {
+            "application/javascript",
+            "application/json",
+            "application/xml",
+            "image/svg+xml",
+        }
+        if is_utf8_text:
+            content_type = f"{content_type}; charset=utf-8"
         stat = path.stat()
         self.send_response(200)
         self.send_header("Content-Type", content_type)
+        if is_utf8_text:
+            self.send_header("Content-Language", "vi")
         self.send_header("Content-Length", str(stat.st_size))
         self.send_header("Last-Modified", self.date_time_string(stat.st_mtime))
         self.send_header("Cache-Control", "public, max-age=300")
