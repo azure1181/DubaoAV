@@ -320,7 +320,10 @@ class ForecastHandler(SimpleHTTPRequestHandler):
             self.send_header("Content-Language", "vi")
         self.send_header("Content-Length", str(stat.st_size))
         self.send_header("Last-Modified", self.date_time_string(stat.st_mtime))
-        self.send_header("Cache-Control", "public, max-age=300")
+        self.send_header(
+            "Cache-Control",
+            "no-cache, must-revalidate" if is_utf8_text else "public, max-age=300",
+        )
         if download:
             self.send_header("Content-Disposition", f'attachment; filename="{path.name}"')
         self.end_headers()
