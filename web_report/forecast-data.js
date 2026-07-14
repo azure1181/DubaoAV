@@ -1,10 +1,10 @@
 window.FORECAST_DATA_BY_YEAR = {
   "2026": {
     "year": 2026,
-    "generated_at": "2026-07-10T10:30:59",
+    "generated_at": "2026-07-14T14:53:15",
     "report_file": "bao_cao_du_bao_2026.xlsx",
     "chart_file": "du_bao_nuoc_ve_2026.png",
-    "executive_comment": "Nam 2026 duoc du bao nhieu nuoc hon trung binh lich su. Luu luong nuoc ve trung binh nam uoc tinh 43.3 m3/s, so voi trung binh lich su theo thang la 38.4 m3/s. Thang co du bao cao nhat la thang 10 (122.8 m3/s); thang thap nhat la thang 4 (16.1 m3/s). Can tiep tuc cap nhat theo dien bien mua va so lieu van hanh ho de hieu chinh du bao.",
+    "executive_comment": "Năm 2026 được dự báo nhiều nước hơn trung bình lịch sử. Lưu lượng nước về trung bình năm ước tính 43.3 m³/s, so với trung bình lịch sử theo tháng là 38.4 m³/s. Tháng có dự báo cao nhất là tháng 10 (122.8 m³/s); tháng thấp nhất là tháng 4 (16.1 m³/s). Cần tiếp tục cập nhật theo diễn biến mưa và số liệu vận hành hồ để hiệu chỉnh dự báo.",
     "summary": {
       "forecast_mean_m3s": 43.29,
       "historical_mean_m3s": 38.4,
@@ -27,9 +27,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 28,
         "frequency_pct_2026": 40,
         "forecast_flow_m3s": 29.81195524742163,
-        "scenario": "Trung binh",
-        "method": "Tan suat 2026 + nam tuong tu + trung binh gan han + xu the",
-        "note": "Co tan suat 2026"
+        "scenario": "Trung bình",
+        "method": "Tần suất 2026 + năm tương tự + trung bình gần hạn + xu thế",
+        "note": "Có tần suất 2026"
       },
       {
         "month": 2,
@@ -42,9 +42,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 22,
         "frequency_pct_2026": 40,
         "forecast_flow_m3s": 19.54355431547644,
-        "scenario": "Trung binh",
-        "method": "Tan suat 2026 + nam tuong tu + trung binh gan han + xu the",
-        "note": "Co tan suat 2026"
+        "scenario": "Trung bình",
+        "method": "Tần suất 2026 + năm tương tự + trung bình gần hạn + xu thế",
+        "note": "Có tần suất 2026"
       },
       {
         "month": 3,
@@ -57,9 +57,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 28,
         "frequency_pct_2026": 12,
         "forecast_flow_m3s": 18.16918172439249,
-        "scenario": "Nhieu nuoc",
-        "method": "Tan suat 2026 + nam tuong tu + trung binh gan han + xu the",
-        "note": "Co tan suat 2026"
+        "scenario": "Nhiều nước",
+        "method": "Tần suất 2026 + năm tương tự + trung bình gần hạn + xu thế",
+        "note": "Có tần suất 2026"
       },
       {
         "month": 4,
@@ -72,9 +72,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 30,
         "frequency_pct_2026": null,
         "forecast_flow_m3s": 16.13287294028715,
-        "scenario": "Nhieu nuoc",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2026, dung mo hinh bo sung"
+        "scenario": "Nhiều nước",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2026, dùng mô hình bổ sung"
       },
       {
         "month": 5,
@@ -87,9 +87,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 51,
         "frequency_pct_2026": null,
         "forecast_flow_m3s": 20.92012270606299,
-        "scenario": "Nhieu nuoc",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2026, dung mo hinh bo sung"
+        "scenario": "Nhiều nước",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2026, dùng mô hình bổ sung"
       },
       {
         "month": 6,
@@ -102,9 +102,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 2,
         "frequency_pct_2026": null,
         "forecast_flow_m3s": 32.74160594923088,
-        "scenario": "Nhieu nuoc",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2026, dung mo hinh bo sung"
+        "scenario": "Nhiều nước",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2026, dùng mô hình bổ sung"
       },
       {
         "month": 7,
@@ -117,9 +117,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 8,
         "frequency_pct_2026": null,
         "forecast_flow_m3s": 24.52007294246342,
-        "scenario": "Nhieu nuoc",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2026, dung mo hinh bo sung"
+        "scenario": "Nhiều nước",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2026, dùng mô hình bổ sung"
       },
       {
         "month": 8,
@@ -131,10 +131,10 @@ window.FORECAST_DATA_BY_YEAR = {
         "machine_flow_2025_m3s": 46.94610215053764,
         "frequency_pct_2025": 16,
         "frequency_pct_2026": null,
-        "forecast_flow_m3s": 23.65494380746377,
-        "scenario": "Trung binh",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2026, dung mo hinh bo sung"
+        "forecast_flow_m3s": 23.65494380746379,
+        "scenario": "Trung bình",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2026, dùng mô hình bổ sung"
       },
       {
         "month": 9,
@@ -147,9 +147,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 20,
         "frequency_pct_2026": null,
         "forecast_flow_m3s": 54.38325898906808,
-        "scenario": "Nhieu nuoc",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2026, dung mo hinh bo sung"
+        "scenario": "Nhiều nước",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2026, dùng mô hình bổ sung"
       },
       {
         "month": 10,
@@ -161,10 +161,10 @@ window.FORECAST_DATA_BY_YEAR = {
         "machine_flow_2025_m3s": 53.05833333333333,
         "frequency_pct_2025": 4,
         "frequency_pct_2026": null,
-        "forecast_flow_m3s": 122.7770006188099,
-        "scenario": "Nhieu nuoc",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2026, dung mo hinh bo sung"
+        "forecast_flow_m3s": 122.7770006188098,
+        "scenario": "Nhiều nước",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2026, dùng mô hình bổ sung"
       },
       {
         "month": 11,
@@ -177,9 +177,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 12,
         "frequency_pct_2026": null,
         "forecast_flow_m3s": 102.0639947025512,
-        "scenario": "Trung binh",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2026, dung mo hinh bo sung"
+        "scenario": "Trung bình",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2026, dùng mô hình bổ sung"
       },
       {
         "month": 12,
@@ -191,10 +191,10 @@ window.FORECAST_DATA_BY_YEAR = {
         "machine_flow_2025_m3s": 45.28920698924732,
         "frequency_pct_2025": 48,
         "frequency_pct_2026": null,
-        "forecast_flow_m3s": 54.7841657099686,
-        "scenario": "Trung binh",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2026, dung mo hinh bo sung"
+        "forecast_flow_m3s": 54.78416570996858,
+        "scenario": "Trung bình",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2026, dùng mô hình bổ sung"
       }
     ],
     "annual": [
@@ -450,7 +450,7 @@ window.FORECAST_DATA_BY_YEAR = {
       },
       {
         "year": 2026,
-        "annual_mean_flow_m3s": 43.29189413776638,
+        "annual_mean_flow_m3s": 43.29189413776637,
         "data_type": "Du bao 2026"
       }
     ],
@@ -4067,7 +4067,7 @@ window.FORECAST_DATA_BY_YEAR = {
         "historical_p90_m3s": 35.36000000000001,
         "historical_max_m3s": 56.3,
         "recent_10y_mean_m3s": 21.65519713261649,
-        "linear_trend_2026_m3s": 29.00138762920892
+        "linear_trend_2026_m3s": 29.00138762920903
       },
       {
         "month": 9,
@@ -4097,7 +4097,7 @@ window.FORECAST_DATA_BY_YEAR = {
         "historical_p90_m3s": 180.7700000000001,
         "historical_max_m3s": 281.9,
         "recent_10y_mean_m3s": 114.7253455197128,
-        "linear_trend_2026_m3s": 121.5327701349618
+        "linear_trend_2026_m3s": 121.5327701349613
       },
       {
         "month": 11,
@@ -4127,7 +4127,7 @@ window.FORECAST_DATA_BY_YEAR = {
         "historical_p90_m3s": 118.36,
         "historical_max_m3s": 189.2,
         "recent_10y_mean_m3s": 51.49803225806437,
-        "linear_trend_2026_m3s": 52.45177946430829
+        "linear_trend_2026_m3s": 52.45177946430817
       }
     ],
     "downloads": {
@@ -4138,10 +4138,10 @@ window.FORECAST_DATA_BY_YEAR = {
   },
   "2027": {
     "year": 2027,
-    "generated_at": "2026-07-13T14:30:39",
+    "generated_at": "2026-07-14T14:53:35",
     "report_file": "bao_cao_du_bao_2027.xlsx",
     "chart_file": "du_bao_nuoc_ve_2027.png",
-    "executive_comment": "Nam 2027 duoc du bao nhieu nuoc hon trung binh lich su. Luu luong nuoc ve trung binh nam uoc tinh 43.1 m3/s, so voi trung binh lich su theo thang la 38.4 m3/s. Thang co du bao cao nhat la thang 10 (122.9 m3/s); thang thap nhat la thang 3 (15.0 m3/s). Can tiep tuc cap nhat theo dien bien mua va so lieu van hanh ho de hieu chinh du bao.",
+    "executive_comment": "Năm 2027 được dự báo nhiều nước hơn trung bình lịch sử. Lưu lượng nước về trung bình năm ước tính 43.1 m³/s, so với trung bình lịch sử theo tháng là 38.4 m³/s. Tháng có dự báo cao nhất là tháng 10 (122.9 m³/s); tháng thấp nhất là tháng 3 (15.0 m³/s). Cần tiếp tục cập nhật theo diễn biến mưa và số liệu vận hành hồ để hiệu chỉnh dự báo.",
     "summary": {
       "forecast_mean_m3s": 43.09,
       "historical_mean_m3s": 38.4,
@@ -4164,9 +4164,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 28,
         "frequency_pct_2027": null,
         "forecast_flow_m3s": 30.16966991716052,
-        "scenario": "Trung binh",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2027, dung mo hinh bo sung"
+        "scenario": "Trung bình",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2027, dùng mô hình bổ sung"
       },
       {
         "month": 2,
@@ -4179,9 +4179,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 22,
         "frequency_pct_2027": null,
         "forecast_flow_m3s": 19.59522514880986,
-        "scenario": "Trung binh",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2027, dung mo hinh bo sung"
+        "scenario": "Trung bình",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2027, dùng mô hình bổ sung"
       },
       {
         "month": 3,
@@ -4194,9 +4194,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 28,
         "frequency_pct_2027": null,
         "forecast_flow_m3s": 14.95198864536885,
-        "scenario": "Trung binh",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2027, dung mo hinh bo sung"
+        "scenario": "Trung bình",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2027, dùng mô hình bổ sung"
       },
       {
         "month": 4,
@@ -4209,9 +4209,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 30,
         "frequency_pct_2027": null,
         "forecast_flow_m3s": 16.16055106953885,
-        "scenario": "Nhieu nuoc",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2027, dung mo hinh bo sung"
+        "scenario": "Nhiều nước",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2027, dùng mô hình bổ sung"
       },
       {
         "month": 5,
@@ -4224,9 +4224,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 51,
         "frequency_pct_2027": null,
         "forecast_flow_m3s": 20.95626489774611,
-        "scenario": "Nhieu nuoc",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2027, dung mo hinh bo sung"
+        "scenario": "Nhiều nước",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2027, dùng mô hình bổ sung"
       },
       {
         "month": 6,
@@ -4239,9 +4239,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 2,
         "frequency_pct_2027": null,
         "forecast_flow_m3s": 32.78412279730345,
-        "scenario": "Nhieu nuoc",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2027, dung mo hinh bo sung"
+        "scenario": "Nhiều nước",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2027, dùng mô hình bổ sung"
       },
       {
         "month": 7,
@@ -4254,9 +4254,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 8,
         "frequency_pct_2027": null,
         "forecast_flow_m3s": 24.57507303103012,
-        "scenario": "Nhieu nuoc",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2027, dung mo hinh bo sung"
+        "scenario": "Nhiều nước",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2027, dùng mô hình bổ sung"
       },
       {
         "month": 8,
@@ -4269,9 +4269,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 16,
         "frequency_pct_2027": null,
         "forecast_flow_m3s": 23.70372319849516,
-        "scenario": "Trung binh",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2027, dung mo hinh bo sung"
+        "scenario": "Trung bình",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2027, dùng mô hình bổ sung"
       },
       {
         "month": 9,
@@ -4284,9 +4284,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 20,
         "frequency_pct_2027": null,
         "forecast_flow_m3s": 54.54717778089236,
-        "scenario": "Nhieu nuoc",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2027, dung mo hinh bo sung"
+        "scenario": "Nhiều nước",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2027, dùng mô hình bổ sung"
       },
       {
         "month": 10,
@@ -4299,9 +4299,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 4,
         "frequency_pct_2027": null,
         "forecast_flow_m3s": 122.9366309758762,
-        "scenario": "Nhieu nuoc",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2027, dung mo hinh bo sung"
+        "scenario": "Nhiều nước",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2027, dùng mô hình bổ sung"
       },
       {
         "month": 11,
@@ -4314,9 +4314,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 12,
         "frequency_pct_2027": null,
         "forecast_flow_m3s": 101.999870396805,
-        "scenario": "Trung binh",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2027, dung mo hinh bo sung"
+        "scenario": "Trung bình",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2027, dùng mô hình bổ sung"
       },
       {
         "month": 12,
@@ -4329,9 +4329,9 @@ window.FORECAST_DATA_BY_YEAR = {
         "frequency_pct_2025": 48,
         "frequency_pct_2027": null,
         "forecast_flow_m3s": 54.73258007117539,
-        "scenario": "Trung binh",
-        "method": "Trung binh gan han + trung binh lich su + xu the + tham chieu 2025",
-        "note": "Chua co tan suat 2027, dung mo hinh bo sung"
+        "scenario": "Trung bình",
+        "method": "Trung bình gần hạn + trung bình lịch sử + xu thế + tham chiếu 2025",
+        "note": "Chưa có tần suất 2027, dùng mô hình bổ sung"
       }
     ],
     "annual": [
